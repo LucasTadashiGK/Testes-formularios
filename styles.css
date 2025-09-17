@@ -1,0 +1,73 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(212, 212, 212);
+}
+
+h1 {
+    color: #2b1d1d;
+    margin-top: 50px;
+}
+
+form {
+    background-color: rgb(243, 243, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(10, 107, 192);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color:#000000;
+}
+
+input[type="text"], input[type="email"], textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 4px;
+box-sizing: border-box;
+resize: none;
+}
+
+.checkbox-grupo {
+  display: flex;
+  align-items: center;
+  }
+
+.checkbox-grupo label {
+  margin: 0; /* tira a margem vertical */
+  margin-left: 8px;
+}
+
+
+
+button {
+    background-color: rgb(0, 183, 255);
+    color:rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.6 ease;
+    margin-top: 18px;
+}
+
+button:hover {
+    background-color: rgb(4, 147, 230);
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color:  rgb(80, 170, 223);
+    transform: scale(0.9);
+}
